@@ -1,0 +1,129 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5CDF7 ;
+    margin-top: 2rem;
+    padding: 1rem;
+    border-top: .3rem solid #46B7A5; 
+    border-left: .3rem solid #F7DE61;  ;
+    border-bottom:.3rem solid #FFC5C4;
+    border-right: .3rem solid #F7DE61;
+}
+
+.footer div {
+    min-width: 10vw;
+    align-items: center;
+    min-width: 10vw;
+}
+
+.footer section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.footer h2{
+    font-size: small;
+    color: #666262;
+}
+
+.redesDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.redes {
+    display: flex;
+    flex-direction: column;
+}
+
+.redesIconos{
+    display: flex;
+    flex-wrap: wrap;
+}
+.redes img {
+    height: 2rem;
+    margin: 0.4rem;
+    transition: .5s, color .10s;
+    -webkit-transition: .5s, color .10s;
+    -moz-transition: .5s, color .10s;
+    border-radius: 50%;
+}
+              
+.redes img:hover{
+    transform: translatey(-20px);
+        -webkit-transform: translatey(-20px);
+        -moz-transform: translatey(-20px);
+    box-shadow: 0 8px 8px 0 #000000,0 8px 8px 0 #000000;
+}
+
+.logoInf {
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+    justify-content: baseline;
+}
+
+.logoInf img{
+    max-height: 10rem;
+}
+
+.informacion {
+    text-align: left;
+}
+
+.informacion span{
+    font-weight: lighter;
+}
+
+.Developer div{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.8rem;
+}
+
+.Developer span{
+    font-size: large;
+    display: flex;
+    justify-content: left;
+}
+
+.Developer span:hover{
+    transform: scale(1.30);
+    color: white;
+    background: #201f1f;
+    border-radius: 2rem;
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+}
+.Developer span a{
+    color: #650671;
+}
+.Developer span a:hover{
+    color: #F7DE61;
+}
+.Developer span a:visited{
+    color: none;
+}
+.developerButtonContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .developerButton {
+    background-color:  #46B7A5; 
+    border: none;
+    padding: 10px 20px; 
+    font-size: 16px; 
+    border-radius: 50%; 
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+  }
+  
+  .developerButton:hover {
+    background-color: #00568d; 
+  }
+

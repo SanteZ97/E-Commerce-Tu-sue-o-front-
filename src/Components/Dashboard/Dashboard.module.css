@@ -1,0 +1,73 @@
+
+.dashboard{
+    display: flex;
+    flex-direction: row;
+    margin-left: 0;
+}
+
+.dashboard section{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    min-width: 25vw;
+    font-weight: bold;
+    background: rgb(138, 89, 198);
+    color: rgba(239, 239, 239, 0.926);
+}
+.dashboard section ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.dashboard section ul li{
+    border-bottom: 0.05rem solid white;
+}
+
+.dashboard section ul li ul{
+    background: #333333;
+    font-size: small;
+}
+.dashboard section ul li:hover{
+    cursor: pointer;
+    background: rgb(2,0,36); 
+    background: linear-gradient(90deg, rgb(27, 17, 218) 0%, rgb(32, 69, 169) 35%, rgb(0, 255, 157) 100%);
+    
+}
+
+.dashboard section ul ul{
+    height: 0;
+    overflow: hidden;
+    transition: 0.8s;
+}
+
+.dashboard section ul li:hover ul{
+    height: 12.4rem;
+}
+
+.dashboard section ul p{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    margin-left: 1rem;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    gap: 1rem;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    background: rgba(25, 71, 136, 0.175);
+    width: 100%;
+    justify-content: center;
+    padding: 3rem;
+
+}
+
+
+
+
